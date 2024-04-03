@@ -184,7 +184,7 @@ header .logo {
   color: #404bbf;
 }
 
-.nav-list-link-first:hover::after {
+.nav-list-link-first:after {
   content: '';
   height: 4px;
   width: 100%;
