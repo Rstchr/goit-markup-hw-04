@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -194,7 +200,14 @@ header .logo {
 
 /* Main title */
 .main-title {
-  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/goit-markup-hw-04/images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 188px 0;
 }
 
@@ -266,6 +279,14 @@ header .logo {
   margin-bottom: 8px;
 }
 
+.icon-container {
+  margin: 24px 100px;
+}
+
+.icon-container.icon {
+  fill: #2e2f42;
+}
+
 /* team */
 
 .team-list {
@@ -306,6 +327,27 @@ header .logo {
 
 .team-list-item-desc .main-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.traling-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.icon {
+  fill: #f4f4fd;
 }
 
 /* our portfolio */
