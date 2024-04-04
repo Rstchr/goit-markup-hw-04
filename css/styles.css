@@ -479,6 +479,7 @@ footer .logo-web {
 .foot-s-text {
   color: #ffffff;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer-icons {
@@ -486,9 +487,10 @@ footer .logo-web {
   gap: 16px;
 }
 
-footer .link-icon:hover {
+.f-link-icon:hover {
   background-color: #31d0aa;
 }
+
 footer .icon {
   fill: #f4f4fd;
 }
